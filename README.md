@@ -85,13 +85,12 @@ tech-knight-game/
 
 ## 🚀 GETTING STARTED
 
-### Prerequisites
-```bash
-node >= 18.0.0
-npm >= 9.0.0
-```
+### Play Now! (No Installation Required)
 
-### Installation
+**Option 1: GitHub Pages (Coming Soon)**
+Visit: https://devanshvpurohit.github.io/tech-knight-game/
+
+**Option 2: Local Play**
 ```bash
 # Clone the repository
 git clone https://github.com/devanshvpurohit/tech-knight-game.git
@@ -99,16 +98,44 @@ git clone https://github.com/devanshvpurohit/tech-knight-game.git
 # Navigate to project directory
 cd tech-knight-game
 
-# Install dependencies
+# Open in browser
+# Simply open index.html in your web browser!
+# OR use a local server:
+python3 -m http.server 8000
+# Then visit: http://localhost:8000
+```
+
+### For Developers
+```bash
+# Prerequisites
+node >= 18.0.0
+npm >= 9.0.0
+
+# Install dependencies (when needed)
 npm install
 
-# Start development server
+# Start development server (coming soon)
 npm run dev
 ```
 
 ---
 
 ## 🎮 GAMEPLAY MECHANICS
+
+### Current Playable Demo Features ✅
+- **Movement System**: WASD controls with sprint
+- **Combat System**: Space bar to attack enemies
+- **Defense System**: Q to activate shield
+- **Enemy AI**: Enemies spawn and chase the player
+- **Health System**: Take damage, game over at 0 HP
+- **Score System**: Earn points for defeating enemies
+- **Visual Effects**: Particles, animations, smooth controls
+
+### Controls
+- **W/A/S/D** - Move character
+- **SHIFT** - Sprint (increased speed)
+- **SPACE** - Attack with Code Blade
+- **Q** - Toggle Shield (blocks damage)
 
 ### Combat System
 - **Health**: 100 HP base
@@ -136,9 +163,10 @@ npm run dev
 ### Phase 1: Foundation (Current)
 - [x] Create repository
 - [x] Character design document
-- [ ] Set up project structure
-- [ ] Choose game engine
-- [ ] Design core mechanics
+- [x] Set up project structure
+- [x] Choose game engine (Phaser 3)
+- [x] Design core mechanics
+- [x] **PLAYABLE DEMO LIVE!** 🎮
 
 ### Phase 2: Character Development
 - [ ] Create character turnaround art
