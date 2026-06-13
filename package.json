@@ -1,0 +1,29 @@
+{
+  "name": "tech-knight-game",
+  "version": "0.1.0",
+  "description": "Tech Knight Battle Royale Game - Tournament game with cash prizes",
+  "main": "src/server/index.js",
+  "scripts": {
+    "dev": "echo 'Development server - Coming soon'",
+    "build": "echo 'Build script - Coming soon'",
+    "test": "echo 'Tests - Coming soon'",
+    "start": "echo 'Start server - Coming soon'"
+  },
+  "keywords": [
+    "game",
+    "battle-royale",
+    "tournament",
+    "multiplayer",
+    "tech-knight"
+  ],
+  "author": "Devansh V Purohit <dev7anshvpurohit@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devanshvpurohit/tech-knight-game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devanshvpurohit/tech-knight-game/issues"
+  },
+  "homepage": "https://github.com/devanshvpurohit/tech-knight-game#readme"
+}
